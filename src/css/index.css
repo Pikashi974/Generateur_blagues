@@ -1,0 +1,45 @@
+.form-group {
+  display: grid;
+  grid-gap: 1%;
+  grid-template-columns: max-content max-content;
+}
+h1 {
+  color: red;
+  font: bold;
+}
+
+#portfolio {
+  display: grid;
+  grid-template-columns: max-content max-content max-content max-content;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.border.border-1 {
+  width: -webkit-fill-available;
+  display: grid;
+  justify-items: center;
+  background: rgb(0, 242, 8);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 242, 8, 1) 0%,
+    rgba(255, 244, 0, 1) 75%
+  );
+}
+
+h1,
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
