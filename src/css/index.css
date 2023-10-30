@@ -3,10 +3,6 @@
   grid-gap: 1%;
   grid-template-columns: max-content max-content;
 }
-h1 {
-  color: red;
-  font: bold;
-}
 
 #portfolio {
   display: grid;
@@ -27,7 +23,6 @@ h1 {
   );
 }
 
-h1,
 .card {
   display: flex;
   justify-content: center;
@@ -40,6 +35,17 @@ body {
   justify-content: center;
   align-items: center;
   justify-items: center;
-  width: -webkit-fill-available;
-  height: -webkit-fill-available;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: red;
+  font: bold;
+  position: fixed;
+  top: 1%;
 }
